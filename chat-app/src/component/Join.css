@@ -1,0 +1,47 @@
+.JoinPage, .JoinContainer{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.JoinContainer{
+    padding: 1rem;
+    height: 50vh;
+    width: 70vw;
+    border: thick double red;
+}
+h2{
+    text-align: center;
+    color:white;
+}
+.msgInp{
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: black;
+    color: red;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.msgInp:focus{
+    border: 2px solid rgb(217, 3, 3);
+}
+.btn{
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    margin: 1.2rem 0;
+    padding: 0.7rem 1.5rem;
+}
+.btn:hover{
+    color:rgb(217, 3, 3);
+    border:2px solid rgb(217, 3, 3);
+}

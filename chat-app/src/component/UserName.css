@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+.userNameBox{
+    height: 6vh;
+    width: 10vh;
+}
+.name{
+    font-family: 'Prompt';
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding: 1rem;
+}

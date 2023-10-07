@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+::-webkit-scrollbar {
+    width: 0.5em; 
+}
+.msgBox{
+    /* background-color: rgb(176, 171, 255); */
+    width: 50%;
+    padding: 1rem 0.6rem;
+    border-radius: 12px;
+    clear: both;
+    margin: 0.5rem 0;
+    font-family: 'Signika';
+}
+.rightBox{
+    margin: 0.5rem 0;
+    width: 50%;
+    padding: 1rem 0.6rem;
+    border-radius: 12px;
+    float: right;
+    background-color: rgb(197, 252, 197);
+}
+.leftBox{
+    margin: 0.5rem 0;
+    width: 50%;
+    padding: 1rem 0.6rem;
+    border-radius: 12px;
+    float: left;
+    background-color: rgb(188, 219, 255);
+}
+
+@media screen and (max-width:1024px) {
+    .msgBox{
+        width: 80%;
+    }
+}
